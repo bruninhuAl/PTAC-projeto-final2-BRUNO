@@ -19,11 +19,18 @@ export default function Home(){
             <section class="video-card">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
                 <div class="video-info">
-                    <h2>Video Title</h2>
-                    <p>Video description goes here.</p>
+                    <h2>Titulo Video</h2>
+                    <p>Descrição Video</p>
                 </div>
             </section>
 
+            <section class="video-card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                <div class="video-info">
+                    <h2>Titulo Video</h2>
+                    <p>Descrição Video</p>
+                </div>
+            </section>
             
 
         </main>
