@@ -7,7 +7,7 @@ function Cards({ListaVideos}) {
         
         ListaVideos.map((video) =>
             <div className="Card">
-                <iframe
+                <iframe>
                     width="853"
                     height="480"
                     src={
