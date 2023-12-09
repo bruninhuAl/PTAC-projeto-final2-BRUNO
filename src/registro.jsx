@@ -59,9 +59,13 @@ export default function registro() {
               type="text"
               value={url}
             /></p>
+            
           </div>
+          <button>Salvar</button>
         </form>
+      </div>
 
+      {/** 
         <div>
           <div className="values-area">
             {lista.map((item) => (
@@ -76,6 +80,7 @@ export default function registro() {
           </div>
         </div>
       </div>
+      */}
 
       
 
