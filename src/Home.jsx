@@ -14,7 +14,7 @@ export default function Home(){
         <nav class="sidebar">
             <ul>
                 <li><a href="./">Home</a></li>
-                <li><a href="./destaque.jsx">Em Destaque</a></li>
+                <li><a href="/destaque">Em Destaque</a></li>
                 <li><a href="/registro">Novo Vídeo</a></li>
             </ul>
         </nav>
