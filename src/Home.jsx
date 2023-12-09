@@ -11,7 +11,7 @@ export default function Home(){
             <ul>
                 <li><a href="./">Home</a></li>
                 <li><a href="./destaque.jsx">Em Destaque</a></li>
-                <li><a href="./register.jsx">Novo Vídeo</a></li>
+                <li><a href="/registro">Novo Vídeo</a></li>
             </ul>
         </nav>
 
