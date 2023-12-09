@@ -1,8 +1,9 @@
 import "./home.css"
+import Card from "./card";
 
 export default function Home(){
     const pegarvideos = JSON.parse(localStorage.getItem('Lista')) || [];
-    console.log(videos);
+    console.log(pegarvideos);
     return(
     <div>
 
@@ -20,26 +21,20 @@ export default function Home(){
 
         <div>
           <div className="values-area">
-            {item.map((item,index) => (
+            {pegarvideos.map((item,index) => (
               <div key={item.id}>
-                
-                <p>Titulo: {item.Titulo}</p>
-                <p>Canal: {item.Canal}</p>
-                <p>Descricao: {item.Descricao}</p>
-                <p>url: {item.url}</p>
+                <Card key={index} item={item}></Card>
               </div>
             ))}
           </div>
         </div>
       </div>
-
-
         
-    </div>
     
- </body>
-
-
-        </div>
-     );
+    
+     </body>
+ 
+    
+    </div>
+    )
 }

@@ -65,22 +65,7 @@ export default function registro() {
         </form>
       </div>
 
-      {/** 
-        <div>
-          <div className="values-area">
-            {lista.map((item) => (
-              <div key={item.id}>
-                
-                <p>Titulo: {item.Titulo}</p>
-                <p>Canal: {item.Canal}</p>
-                <p>Descricao: {item.Descricao}</p>
-                <p>url: {item.url}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-      */}
+      
 
       
 
