@@ -1,10 +1,13 @@
 import "./home.css"
-export default function Home(){
-    return(
-        <div>
 
-<body>
-    <div class="container">
+export default function Home(){
+    const pegarvideos = JSON.parse(localStorage.getItem('Lista')) || [];
+    console.log(videos);
+    return(
+    <div>
+
+        <body>
+        <div class="container">
         
 
         <nav class="sidebar">
@@ -15,7 +18,22 @@ export default function Home(){
             </ul>
         </nav>
 
-        
+        <div>
+          <div className="values-area">
+            {item.map((item,index) => (
+              <div key={item.id}>
+                
+                <p>Titulo: {item.Titulo}</p>
+                <p>Canal: {item.Canal}</p>
+                <p>Descricao: {item.Descricao}</p>
+                <p>url: {item.url}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+
         
     </div>
     
