@@ -1,5 +1,6 @@
 import "./home.css"
 import Card from "./card";
+import "./home.css"
 
 export default function destaque(){
     const pegarvideos = JSON.parse(localStorage.getItem('Lista')) || [];
