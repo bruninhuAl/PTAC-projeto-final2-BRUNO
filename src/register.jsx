@@ -41,21 +41,21 @@ export default function Todo() {
               id="titulo"
               onChange={(e) => setTitulo(e.target.value)}
               type="text"
-              value={titulo}
+              value={Titulo}
             /></p>
             <p><label htmlFor="canal">Canal:</label>
             <input
               id="canal"
               onChange={(e) => setCanal(e.target.value)}
               type="text"
-              value={canal}
+              value={Canal}
             /></p>
            <p> <label htmlFor="descricao">Descricao:</label>
             <input
               id="descricao"
               onChange={(e) => setDescricao(e.target.value)}
               type="text"
-              value={descricao}
+              value={Descricao}
             /></p>
             <p> <label htmlFor="url">url:</label>
             <input
