@@ -25,10 +25,6 @@ export default function registro() {
     seturl("");
   }
 
-  const remover = (id) => {
-    const listaFiltrada = lista.filter((item) => item.id !== id);
-    setLista(listaFiltrada);
-  };
 
   return (
     <div>
@@ -71,14 +67,10 @@ export default function registro() {
             {lista.map((item) => (
               <div key={item.id}>
                 
-                <p>Email: {item.Email}</p>
-                <p>CPF: {item.Cpf}</p>
-                <button
-                  className="blue-border-button"
-                  onClick={() => remover(item.id)}
-                >
-                  Remover
-                </button>
+                <p>Titulo: {item.Titulo}</p>
+                <p>Canal: {item.Canal}</p>
+                <p>Descricao: {item.Descricao}</p>
+                <p>url: {item.url}</p>
               </div>
             ))}
           </div>
